@@ -1,4 +1,4 @@
-- ### Contact
+### :mailbox: Contact
 
 **Evgen Khamitcevich**
 
@@ -16,13 +16,13 @@ GitHub: https://github.com/EvgenKham
 
 ---
 
-- ### About me
+### :technologist: About Me:
 
 Currently I am looking for a way to convert from a medical worker to a developer, as there is a corresponding education, a huge desire to create a working product, see the result of my work, and develop in front-end direction. There is experience in performing student, laboratory works, as well as pet projects with a code on GitHub. I would like to try my hand at commercial development and contribute to the development of your, and hopefully my, company in the future.
 
 ---
 
-- ### Skills
+### :hammer_and_wrench: Skills:
 
 - [x]	Javascript/ES5/ES6
 - [x]	HTML5/CSS3
@@ -36,7 +36,7 @@ Currently I am looking for a way to convert from a medical worker to a developer
 
 ---
 
-- ### Experience
+### :man_student: Experience
 
 Development of Movies project on Javascript using Vue framework and BootstrapVue, HTTP client Axios. Implementation of local storage (Vuex), pagination, loader, notification, search and some other user interface. As well as deploy this project on GitHub Pages ( https://evgenkham.github.io/movies_app/ ).
 
@@ -46,7 +46,7 @@ During the training he also performed laboratory and educational work with the u
 
 ---
 
-- ### Code example (from Codewars)
+### :computer_mouse: Code example (from Codewars)
 
 **Task:** Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
 
@@ -62,7 +62,7 @@ function moveZeros(arr) {
 
 ---
 
-- ### Education
+### :books: Education
 
 - International Sakharov Environmental Institute of Belarusian State University;
 - distance form of education;
@@ -71,7 +71,7 @@ function moveZeros(arr) {
 
 ---
 
-- ### Language
+### :speaking_head: Language
 
  Nowadays my level is **B1+** but since the last May I'm improving my all English skills and attend speaking club.
 
