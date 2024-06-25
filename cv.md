@@ -44,7 +44,7 @@ During the training he also performed laboratory and educational work with the u
 
 **Task:** Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
 
-\```
+```
 function moveZeros(arr) {
 
   let arrWithoutZero = arr.filter( item => item !== 0);
@@ -52,7 +52,7 @@ function moveZeros(arr) {
 
   return arrWithoutZero.concat(arrWithZero);
 }
-\```
+```
 
 ---
 
