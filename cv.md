@@ -1,11 +1,17 @@
 - ### Contact
 
 **Evgen Khamitcevich**
+
 **Belarus\Minsk city**
+
 **Frontend developer**
+
 Tel: +375(29)8562819
+
 Email: hamitcevich@gmail.com
+
 Telegram: https://t.me/EvgenKham
+
 GitHub: https://github.com/EvgenKham
 
 ---
