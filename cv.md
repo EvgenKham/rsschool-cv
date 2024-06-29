@@ -1,10 +1,10 @@
+# **Front-end Developer**
+
 ### :mailbox: Contact
 
 **Evgen Khamitcevich**
 
-**Belarus\Minsk city**
-
-**Frontend developer**
+**Belarus\Minsk**
 
 Tel: +375(29)8562819
 
@@ -12,13 +12,15 @@ Email: hamitcevich@gmail.com
 
 Telegram: https://t.me/EvgenKham
 
+Discord: EvgenKh (@EvgenKham)
+
 GitHub: https://github.com/EvgenKham
 
 ---
 
 ### :technologist: About Me:
 
-Currently I am looking for a way to convert from a medical worker to a developer, as there is a corresponding education, a huge desire to create a working product, see the result of my work, and develop in front-end direction. There is experience in performing student, laboratory works, as well as pet projects with a code on GitHub. I would like to try my hand at commercial development and contribute to the development of your, and hopefully my, company in the future.
+Currently I am looking for a way to convert from a medical worker to a developer, as there is a corresponding education, a huge desire to create a working product, see the result of my work, and develop in front-end direction. There is experience in performing student, laboratory works, as well as pet projects with a code on GitHub. I would like to try my hand at commercial development and contribute to the development of your company.
 
 ---
 
@@ -42,7 +44,7 @@ Development of Movies project on Javascript using Vue framework and BootstrapVue
 
 Semantic and adaptive development layout at the begining using Figma, using SASS preprocessor, BEM and Flexbox methodology. Implementation of JS scripts for "burger" menu and smooth transition (https://evgenkham.github.io/guitarist/ ).
 
-During the training he also performed laboratory and educational work with the use of other programming languages (PHP and Java). In 2019, he was trained and successfully completed a project on beck-end development on Python/Django, on this I have knowledge in this field.
+During the training he also performed laboratory and educational work with the use of other programming languages (PHP and Java).
 
 ---
 
@@ -71,7 +73,17 @@ function moveZeros(arr) {
 
 ---
 
+### Courses
+
+- Course Backend development on Python/Django - 2019;
+- Layout and create web-sites ( Elementary ) - Udemy, 2023;
+- Modern Javascript + Vue - Udemy, 2023;
+- Layout and create web-sites ( Advance ) - Udemy, 2024;
+- English course - Underground school, since 2023;
+
+---
+
 ### :speaking_head: Language
 
- Nowadays my level is **B1+** but since the last May I'm improving my all English skills and attend speaking club.
+ **B1+** Iintermediate plus
 
