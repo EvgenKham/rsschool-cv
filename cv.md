@@ -26,14 +26,16 @@ Currently I am looking for a way to convert from a medical worker to a developer
 
 ### :hammer_and_wrench: Skills:
 
-- [x]	Javascript/ES5/ES6
-- [x]	HTML5/CSS3
-- [x]	Modern layout/SASS/БЭМ/Flexbox
-- [x]	Figma
+- [x]	Core Javascript/ES5/ES6
+- [x]	DOM, DOM Events, Browser API
+- [x]	Promise API, async/await
 - [x]	Git
-- [x]	Framework Vue
+- [x] HTML5/CSS3
+- [x] Modern layout/SASS/БЭМ/Flexbox
+- [x]	Figma
+- [x]	OOP/SOLID/DRY/KISS
+- [x]	VueJS, Vuex, Vue Router
 - [x]	Axios
-- [x]	Bootstrap
 - [x]	Npm and Webpack
 
 ---
