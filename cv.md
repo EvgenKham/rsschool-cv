@@ -64,16 +64,17 @@ function moveZeros(arr) {
 
 ---
 
-### :books: Education
+### Courses
 
-- International Sakharov Environmental Institute of Belarusian State University;
-- distance form of education;
-- specialty "Information systems and technologies";
-- year of dergraduate: 2018
+- Course Backend development on Python/Django - 2019;
+- Layout and create web-sites ( Elementary ) - Udemy, 2023;
+- Modern Javascript + Vue - Udemy, 2023;
+- Layout and create web-sites ( Advance ) - Udemy, 2024;
+- English course - Underground school, since 2023;
 
 ---
 
 ### :speaking_head: Language
 
- Nowadays my level is **B1+** but since the last May I'm improving my all English skills and attend speaking club.
+ **B1+** Iintermediate plus
 
