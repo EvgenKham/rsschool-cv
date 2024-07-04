@@ -3,12 +3,33 @@
   padding: 0
   box-sizing: border-box
 
-$color-blue: #baedff
+$color-blue: #c1edfb
 $pale-white: #f5f5f5
-$yellow: #fff351
+$yellow: #ffc32a
+$gray: #468c98
+$light-gray: #33d9f7
 
-body
+@font-face
+  font-family: Montserrat
+  src: url("assets/fonts/Montserrat/Montserrat-Regular.ttf")
+  font-weight: 300
+
+@font-face
+  font-family: Montserrat
+  src: url("assets/fonts/Montserrat/Montserrat-Bold.ttf")
+  font-weight: 500
+
+html
+  font-family: 'Montserrat'
+  font-weight: regular
+  scroll-behavior: smooth
   background-color: $pale-white
+
+// body
+//   display: flex
+//   flex-direction: column
+//   justify-content: space-between
+//   min-height: 100vh
 
 .container
   position: relative
@@ -30,7 +51,7 @@ body
     display: flex
     flex-direction: column
     justify-content: space-between
-    margin-bottom: 20px
+    margin-bottom: 100px
     width: 100%
     align-items: center
     font-weight: bold
@@ -43,14 +64,73 @@ body
     background-color: $yellow
   &__list
     display: flex
+    justify-content: flex-end
     align-items: center
   &__list-item
     margin-right: 30px
-    font-size: 18px
-    list-style-type: none
+    font-size: 20px
+    list-style: none
     &:last-child
       margin-right: 0
-    a
-      text-decoration: none
-      color: black
 
+  .nav-link
+    color: black
+    text-decoration: none
+    transition: color 0.3s
+    &:hover
+      color: #b13737
+
+  &__info_name
+    font-size: 40px
+    border-bottom: 1px solid #980000
+    margin-bottom: 10px
+
+.main-section
+  display: flex
+
+
+.left-section
+  display: flex
+  flex-flow: column wrap
+  width: 300px
+  min-height: 800px
+  background-color: $gray
+  padding-top: 25px
+  padding-left: 30px
+  &__contact
+    margin-bottom: 100px
+
+.title-contact
+  margin-bottom: 20px
+  background-color: $color-blue
+
+.item
+  list-style: none
+  margin-bottom: 10px
+  &:last-child
+    margin-bottom: 0
+  span
+    font-weight: bold
+
+.title-skills
+  margin-bottom: 20px
+  background-color: $color-blue
+
+.right-section
+  display: flex
+  flex-flow: column wrap
+  width: 850px
+  min-height: 800px
+  padding-top: 25px
+  padding-left: 30px
+  &__contact
+    margin-bottom: 100px
+
+
+.summary
+  margin-bottom: 100px
+  &__title
+    margin-bottom: 20px
+    background-color: $yellow
+  &__text
+    margin-right: 30px
