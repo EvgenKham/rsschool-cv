@@ -145,19 +145,28 @@ html {
   padding-left: 30px;
 }
 
-.right-section__contact {
+.right-section__item {
   margin-bottom: 100px;
 }
 
-.summary {
-  margin-bottom: 100px;
-}
-
-.summary__title {
+.right-section__title {
   margin-bottom: 20px;
   background-color: #ffc32a;
 }
 
-.summary__text {
-  margin-right: 30px;
+.right-section__text {
+  margin-right: 40px;
+}
+
+.right-section__list_item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.right-section__list_item:last-child {
+  margin-bottom: 0;
+}
+
+.right-section__list_item span {
+  font-weight: bold;
 }

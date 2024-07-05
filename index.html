@@ -91,21 +91,51 @@
         <!--Основная секция с данными-->
         <main class="right-section">
           <section class="summary right-section__item" id="id-summary">
-            <h2 class="summary__title">Summary</h2>
-            <p class="summary__text">Currently I am looking for a way to convert from a medical worker to a developer, as there is a corresponding education, a huge desire to create a working product, see the result of my work, and develop in front-end direction. There is experience in performing student, laboratory works, as well as pet projects with a code on GitHub. I would like to try my hand at commercial development and contribute to the development of your company.</p>
+            <h2 class="right-section__title">Summary</h2>
+            <p class="right-section__text">Currently I am looking for a way to convert from a medical worker to a developer, as there is a corresponding education, a huge desire to create a working product, see the result of my work, and develop in front-end direction. There is experience in performing student, laboratory works, as well as pet projects with a code on GitHub. I would like to try my hand at commercial development and contribute to the development of your company.</p>
           </section>
           <section class="education right-section__item" id="id-education">
-            <h2 class="education__title">Education</h2>
-            <ul class="education__list">
-              <li class="item">Course Backend development on Python/Django - 2019;</li>
-              <li class="item">Layout and create web-sites ( Elementary ) - Udemy, 2023;</li>
-              <li class="item">Modern Javascript + Vue - Udemy, 2023;</li>
-              <li class="item">English course - Underground school, since 2023;</li>
+            <h2 class="right-section__title">Education</h2>
+            <ul class="right-section__list">
+              <li class="right-section__list_item"><span>Course Backend development on Python/Django - 2019</span></li>
+              <li class="right-section__list_item"><span>Layout and create web-sites ( Elementary ) - Udemy, 2023</span></li>
+              <li class="right-section__list_item"><span>Modern Javascript + Vue - Udemy, 2023</span></li>
+              <li class="right-section__list_item"><span>English course - Underground school, since 2023</span></li>
+              <li class="right-section__list_item"><span>JS/FE Pre-School - The Rolling Scopes, since 2024</span></li>
             </ul>
           </section>
-          <section class="experience" id="id-experience"></section>
-          <section class="code" id="id-code"></section>
-          <section class="language" id="id-language"></section>
+          <section class="experience right-section__item" id="id-experience">
+            <h2 class="right-section__title">Experience</h2>
+            <p class="right-section__text">Development of Movies project on Javascript using Vue framework and BootstrapVue, HTTP client Axios. Implementation of local storage (Vuex), pagination, loader, notification, search and some other user interface. As well as deploy this project on GitHub Pages ( https://evgenkham.github.io/movies_app/ ).</p>
+            <br>
+            <p class="right-section__text">Semantic and adaptive development layout at the begining using Figma, using SASS preprocessor, BEM and Flexbox methodology. Implementation of JS scripts for “burger” menu and smooth transition (https://evgenkham.github.io/guitarist/ ).</p>
+            <br>
+            <p class="right-section__text">During the training he also performed laboratory and educational work with the use of other programming languages (PHP and Java).</p>
+
+          </section>
+          <section class="code right-section__item" id="id-code">
+            <h2 class="right-section__title">Code</h2>
+            <p class="right-section__text">Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.</p>
+            <pre>
+
+              function moveZeros(arr) {
+
+                let arrWithoutZero = arr.filter( item => item !== 0);
+                let arrWithZero = arr.filter( item => item === 0);
+
+                return arrWithoutZero.concat(arrWithZero);
+              }
+            </pre>
+          </section>
+          <section class="language" id="id-language">
+            <h2 class="right-section__title">Languages</h2>
+            <ul class="right-section__list">
+              <li class="right-section__list_item"><span>English:</span> B1+ Iintermediate plus</li>
+              <li class="right-section__list_item"><span>Belarus:</span> Native</li>
+              <li class="right-section__list_item"><span>Russian:</span> Native</li>
+            </ul>
+          </section>
+
         </main>
 
       </div>
