@@ -171,6 +171,17 @@ html {
   font-weight: bold;
 }
 
+.experience__example {
+  color: #468c98;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.experience__example:hover {
+  color: #b13737;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
@@ -181,12 +192,28 @@ html {
 }
 
 .footer__github {
+  display: flex;
   color: black;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 48px;
   transition: color 0.3s;
 }
 
 .footer__github:hover {
   color: #b13737;
+}
+
+.footer__github_icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.footer__year {
+  font-size: 20px;
+}
+
+.footer__school_icon {
+  width: 200px;
+  height: 70px;
 }
