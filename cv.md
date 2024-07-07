@@ -76,16 +76,6 @@ function moveZeros(arr) {
 
 ---
 
-### Courses
-
-- Course Backend development on Python/Django - 2019;
-- Layout and create web-sites ( Elementary ) - Udemy, 2023;
-- Modern Javascript + Vue - Udemy, 2023;
-- Layout and create web-sites ( Advance ) - Udemy, 2024;
-- English course - Underground school, since 2023;
-
----
-
 ### :speaking_head: Language
 
  **B1+** Iintermediate plus
