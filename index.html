@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/svg/favicon.ico" />
+    <title>CV</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!--Заголовок с фото и навигационным меню-->
+      <header class="header">
+        <div class="header__photo">
+          <img class="header__photo_avatar" src="assets/img/My_photo.jpg" alt="my-photo" />
+        </div>
+        <div class="header__content">
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__list-item">
+                <a href="#id-contact" class="nav-link">Contact</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#id-summary" class="nav-link">Summary</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#id-skills" class="nav-link">Skills</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#id-experience" class="nav-link">Experience</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#id-code" class="nav-link">Code</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#id-education" class="nav-link">Education</a>
+              </li>
+              <li class="header__list-item">
+                <a href="#id-language" class="nav-link">Language</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__info">
+            <h1 class="header__info_name">Evgen Khamitcevich</h1>
+            <h2 class="header__info_job">Junior Frontend developer</h2>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-section">
+        <!--Секция с контактами и навыками-->
+        <aside class="left-section">
+          <section class="left-section__contact" id="id-contact">
+            <h2 class="title-contact">Contact</h2>
+            <ul class="list-contact">
+              <li class="item">
+                <span>Adress:</span> Belarus\Minsk
+              </li>
+              <li class="item">
+                <span>Tel:</span> +375(29)8562819
+              </li>
+              <li class="item">
+                <span>Email:</span> hamitcevich@gmail.com
+              </li>
+              <li class="item">
+                <span>Telegram:</span> https://t.me/EvgenKham
+              </li>
+              <li class="item">
+                <span>Discord:</span> EvgenKh (@EvgenKham)
+              </li>
+            </ul>
+          </section>
+          <section class="left-section__skills" id="id-skills">
+            <h2 class="title-skills">Skills</h2>
+            <ul class="list-skills">
+              <li class="item"><span>Javascript/ES5/ES6</span></li>
+              <li class="item"><span>DOM Events, Browser API</span></li>
+              <li class="item"><span>Promise API, async/await</span></li>
+              <li class="item"><span>Git/GitHub</span></li>
+              <li class="item"><span>HTML5/CSS3</span></li>
+              <li class="item"><span>Modern layout/SASS/БЭМ/Flexbox</span></li>
+              <li class="item"><span>OOP/SOLID/DRY/KISS</span></li>
+              <li class="item"><span>VueJS, Vuex, Vue Router</span></li>
+              <li class="item"><span>Axios</span></li>
+              <li class="item"><span>Npm and Webpack</span></li>
+            </ul>
+          </section>
+        </aside>
+
+        <!--Основная секция с данными-->
+        <main class="right-section">
+          <section class="summary right-section__item" id="id-summary">
+            <h2 class="right-section__title">Summary</h2>
+            <p class="right-section__text">Currently I am looking for a way to convert from a medical worker to a developer, as there is a corresponding education, a huge desire to create a working product, see the result of my work, and develop in front-end direction. There is experience in performing student, laboratory works, as well as pet projects with a code on GitHub. I would like to try my hand at commercial development and contribute to the development of your company.</p>
+          </section>
+          <section class="education right-section__item" id="id-education">
+            <h2 class="right-section__title">Education</h2>
+            <ul class="right-section__list">
+              <li class="right-section__list_item"><span>Course Backend development on Python/Django - 2019</span></li>
+              <li class="right-section__list_item"><span>Layout and create web-sites ( Elementary ) - Udemy, 2023</span></li>
+              <li class="right-section__list_item"><span>Modern Javascript + Vue - Udemy, 2023</span></li>
+              <li class="right-section__list_item"><span>English course - Underground school, since 2023</span></li>
+              <li class="right-section__list_item"><span>JS/FE Pre-School - The Rolling Scopes, since 2024</span></li>
+            </ul>
+          </section>
+          <section class="experience right-section__item" id="id-experience">
+            <h2 class="right-section__title">Experience</h2>
+            <p class="right-section__text">Development of
+              <a class="experience__example" href="https://evgenkham.github.io/movies_app/">Movies project</a> on Javascript using Vue framework and BootstrapVue, HTTP client Axios. Implementation of local storage (Vuex), pagination, loader, notification, search and some other user interface. As well as deploy this project on GitHub Pages.
+            </p>
+            <br>
+            <p class="right-section__text">
+              <a class="experience__example" href="https://evgenkham.github.io/guitarist/">Semantic and adaptive development layout</a> at the begining using Figma, using SASS preprocessor, BEM and Flexbox methodology. Implementation of JS scripts for “burger” menu and smooth transition.</p>
+            <br>
+            <p class="right-section__text">During the training he also performed laboratory and educational work with the use of other programming languages (PHP and Java).</p>
+          </section>
+          <section class="code right-section__item" id="id-code">
+            <h2 class="right-section__title">Code</h2>
+            <p class="right-section__text">Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.</p>
+            <pre>
+
+              function moveZeros(arr) {
+
+                let arrWithoutZero = arr.filter( item => item !== 0);
+                let arrWithZero = arr.filter( item => item === 0);
+
+                return arrWithoutZero.concat(arrWithZero);
+              }
+            </pre>
+          </section>
+          <section class="language" id="id-language">
+            <h2 class="right-section__title">Languages</h2>
+            <ul class="right-section__list">
+              <li class="right-section__list_item"><span>English:</span> B1+ Iintermediate plus</li>
+              <li class="right-section__list_item"><span>Belarus:</span> Native</li>
+              <li class="right-section__list_item"><span>Russian:</span> Native</li>
+            </ul>
+          </section>
+
+        </main>
+
+      </div>
+
+      <!--Footer-->
+      <footer class="footer">
+        <a class="footer__github" href="https://github.com/EvgenKham">
+          <img class="footer__github_icon" src="assets/svg/mark-github.png" alt="GitHub icon">
+            <p class="footer__github_text">My GitHub</p>
+        </a>
+        <p class="footer__year">2024-2025</p>
+        <a class="footer__school" href="https://rs.school/courses/javascript-preschool-ru">
+          <img class="footer__school_icon" src="assets/svg/rs_school.svg" alt="RS School">
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
